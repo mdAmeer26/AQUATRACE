@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Node / Frontend
+node_modules/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Data Files
+data/raw/
+data/processed/
+data/models/*.h5
+data/models/*.pkl
+data/cache/
+*.csv
+*.json.bak
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Testing
+.pytest_cache/
+.tox/
+*.test
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Build Artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Sensitive Data
+secrets/
+credentials/
+*.key
+*.pem
+*.cert
+*.sqlite
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# System
+Thumbs.db
+.DS_Store

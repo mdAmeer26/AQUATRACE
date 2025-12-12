@@ -1,0 +1,74 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database (Optional - install PostgreSQL first if needed)
+# sqlalchemy==2.0.23
+# alembic==1.13.0
+# psycopg2-binary==2.9.9
+# geoalchemy2==0.14.2
+
+# Async & Task Queue
+celery==5.3.4
+redis==5.0.1
+aiohttp==3.9.1
+httpx==0.25.2
+
+# Machine Learning (TensorFlow optional for now)
+# tensorflow==2.15.0  # Large install, add later
+# torch==2.1.1  # Large install, add later
+# torchvision==0.16.1  # Large install, add later
+scikit-learn==1.3.2
+numpy==1.26.2
+pandas==2.1.3
+
+# Geospatial (Windows-friendly versions)
+# rasterio==1.3.9  # Complex Windows install
+# gdal==3.8.0  # Complex Windows install
+pyproj==3.6.1
+shapely==2.0.2
+# geopandas==0.14.1  # Requires GDAL
+folium==0.15.1
+
+# Satellite Data Access (simplified for Windows)
+earthaccess==0.8.2
+# sentinelsat==1.2.1  # Install later if needed
+# netCDF4==1.6.5  # Requires C libraries
+h5py==3.10.0
+# xarray==2023.12.0  # Install later if needed
+
+# Visualization & Export
+matplotlib==3.8.2
+seaborn==0.13.0
+pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Data Processing
+scipy==1.11.4
+dask[complete]==2023.12.0
+
+# API & Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+loguru==0.7.2
+tqdm==4.66.1
+requests==2.31.0
+schedule==1.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Development
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
